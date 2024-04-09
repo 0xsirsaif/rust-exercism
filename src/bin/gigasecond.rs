@@ -1,7 +1,7 @@
 use time::{PrimitiveDateTime as DateTime, Duration, Date, Time};
 
 fn main(){
-    let some_day = dt(2024, 04, 07, 7, 36, 0);
+    let some_day = dt(2024, 4, 7, 7, 36, 0);
     println!("{}", after(some_day));
 }
 

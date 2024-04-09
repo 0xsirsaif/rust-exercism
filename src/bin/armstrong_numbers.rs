@@ -1,11 +1,11 @@
 fn main() {
-    assert_eq!(is_armstrong_number(9), true);
-    assert_eq!(is_armstrong_number(10), false);
-    assert_eq!(is_armstrong_number(153), true);
-    assert_eq!(is_armstrong_number(154), false);
-    assert_eq!(is_armstrong_number(999_999_999), false);
-    assert_eq!(is_armstrong_number(4_106_098_957), false);
-    assert_eq!(is_armstrong_number(3_999_999_999), false);
+    assert!(is_armstrong_number(9));
+    assert!(is_armstrong_number(10));
+    assert!(is_armstrong_number(153));
+    assert!(is_armstrong_number(154));
+    assert!(is_armstrong_number(999_999_999));
+    assert!(is_armstrong_number(4_106_098_957));
+    assert!(is_armstrong_number(3_999_999_999));
 }
 
 
